@@ -155,8 +155,6 @@ else()
    set(BIN_DIRECTORY "bin")
 endif()
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${BIN_DIRECTORY})
-
 add_executable(basisu ${BASISU_SRC_LIST})
 
 if (ZSTD)
